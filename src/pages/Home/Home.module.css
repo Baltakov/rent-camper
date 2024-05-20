@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home_content_wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: rgb(238, 241, 50);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.advantages {
+  display: inline-flex;
+}
+
+.block {
+  text-align: left;
+  padding: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+.paragraph {
+  color: #f6f7f9;
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.button_start_wrapper {
+  max-width: 250px;
+}
+
+.button_start {
+  width: auto;
+  padding: 16px 40px;
+  border-radius: 200px;
+  background: #ecf405;
+  color: #0a0a0a;
+  font-weight: 500;
+  letter-spacing: -0.08px;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.favorit_empty {
+  color: #e44848;
+  font-size: 22px;
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-photo/beautiful-mountain-road-landscape_23-2149052438.jpg?t=st=1715794288~exp=1715797888~hmac=81b5b20627bc17884e9ee23489cafb68f0a96eae333604ce139711178a860cef&w=740');
+  background-size: cover;
+  background-position: center;
+}
+.call {
+  color: #f8f834;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+}

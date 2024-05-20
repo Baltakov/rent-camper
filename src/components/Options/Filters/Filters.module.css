@@ -1,0 +1,11 @@
+.header_filters {
+  color: #475467;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.container_filters {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
